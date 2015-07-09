@@ -1,0 +1,42 @@
+extends layout
+
+block content
+    
+  .header
+    .title #{title}
+    .description
+      | Post in 
+      a(href="#") this
+      |  thread if you want your server added. Click on the Server Name to visit the thread on reddit.
+  
+  table.server-table
+    tr
+      td(width="10%")#table-title gametype
+      td(width="70%")#table-title server info
+      td(width="20%")#table-title
+    
+    each server, i in serverlist
+          
+      tr
+        td(width="10%")#gametype= server.gametype
+        td(width="70%")
+          .server-info
+            font(color="#c69e11" size="2")
+              a(href="#{server.redditlink}")
+                b #{server.servername}
+              p#server-location @ #{server.serverlocation} 
+        td(width="20%")#join
+          a(href="steam://connect/#{server.serveraddress}") JOIN
+
+  .footer
+    | by 
+    a(href="http://reddit.com/u/johnny_pone") #{credits}
+//- extends layout
+//- 
+//- block content
+//-   h1.
+//-     User List
+//-   ul
+//-     each user, i in serverlist
+//-       li
+//-         a(href="#")= user.username

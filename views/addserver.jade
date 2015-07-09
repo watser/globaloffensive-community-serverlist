@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1= title
+    form#formAddUser(name="addsrv",method="post",action="/addsrv")
+        input#inputGametype(type="text", placeholder="gametype", name="gametype")
+        input#inputServername(type="text", placeholder="servername", name="servername")
+        input#inputServerlocation(type="text", placeholder="serverlocation", name="serverlocation")
+        input#inputServerAddress(type="text", placeholder="ServerAddress", name="serveraddress")
+        input#inputServerAddress(type="text", placeholder="redditlink (including http://)", name="redditlink")
+        button#btnSubmit(type="submit") submit

@@ -1,0 +1,112 @@
+body {
+  padding: 50px;
+  padding-top: 200px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #eaf1f2;
+}
+
+a, a:visited {
+  color: #117196;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e0e8e9;
+  text-align: center;
+  margin-bottom: 5px;
+  margin=top: 0;
+  padding: 2px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(198, 158, 17);
+  background-color: rgb(23, 33, 62);
+  /*background-color: #bcc3c4;*/
+}
+
+.description {
+  font-size: 12;
+  font-style: italic;
+  padding: 3px;
+  background-color: #bcc3c4;
+}
+
+.server-table {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(188, 195, 196, 0.53);
+  margin-bottom: 5px;
+}
+
+#table-title {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(198, 158, 17);
+  background-color: rgb(23, 33, 62);
+  /*background-color: #5c94cd;*/
+}
+
+#gametype {
+  text-align: center;
+  font-weight: bold;
+  /*background-color: #5c94cd;*/
+}
+
+.server-info {
+  background-color: rgba(23, 33, 62, 1);
+  vertical-align: middle;
+  padding: 2px;
+  margin: 1px;
+}
+
+.server-info:hover {
+  background-color: rgba(29, 42, 82, 1);
+}
+
+.server-info a {
+  color: rgb(198, 158, 17);
+}
+
+#server-description {
+  margin: 0;
+  /*background-color: #5c94cd;*/
+}
+
+#server-location {
+  margin: 0;
+  margin-right: 3px;
+  font-size: 12px;
+  float: right;
+}
+
+#thread {
+  margin: 0;
+  margin-right: 3px;
+  text-align: right;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+#join, #join a {
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bcc3c4;
+  text-align: center;
+  padding: 4px 0px 4px 0px;
+}
